@@ -31,7 +31,7 @@ __EPITA, Computer Science engineering school, Paris__
 
 - Majoring in Systems, Networks and Security
 
-- __Courses__
+- **Courses**
 - Active Directory / Windows administration
 - Linux Administration
 - Network concepts
@@ -93,7 +93,7 @@ Participation to the [Defnet](https://www.defense.gouv.fr/marine/actu-marine/exe
 
 ## Skills
 
-### Programming languages
+### Programming
 
 C, C++, C#, Python, Java, SQL, Shell Scripting, Powershell
 
