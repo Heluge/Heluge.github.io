@@ -31,11 +31,11 @@ __EPITA, Computer Science engineering school, Paris__
 
 - Majoring in Systems, Networks and Security
 - Courses :
--- Active Directory / Windows administration
--- Linux Administration
--- Network concepts
--- Exploitation (cracking, buffer and heap overflows, shellcode, string format bug, metasploit, rootkits and backdoors)
--- Network security (TCP/IP and related protocols' attacks) and web site flaws
+  - Active Directory / Windows administration
+  - Linux Administration
+  - Network concepts
+  - Exploitation (cracking, buffer and heap overflows, shellcode, string format bug, metasploit, rootkits and backdoors)
+  - Network security (TCP/IP and related protocols' attacks) and web site flaws
 
 
 `2019 - 2019`
