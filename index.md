@@ -19,19 +19,12 @@ Looking for a 6 months internship in systems, networks or security starting from
 Systems, networks and security in the [SRS major](https://srs.epita.fr/)
 
 
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
-
-
 ## Education
 
 `2019 - now`
 __EPITA, Computer Science engineering school, Paris__
 
-- Majoring in Systems, Networks and Security
-
-- **Courses**
+- __Courses__
 - Active Directory / Windows administration
 - Linux Administration
 - Network concepts
@@ -90,6 +83,10 @@ Creation of a __forensic exercise__ for the [Forum International de la Cyberséc
 `15/03/2022`
 Participation to the [Defnet](https://www.defense.gouv.fr/marine/actu-marine/exercice-defnet-2021) exercise : joint __cyberdefense exercise__ organizaed by the "Commandement de la Cyberdéfense"
 
+### Multi-Spé Project
+`2021 - now`
+Restructuring of the information system during the merger and acquisition of a company
+
 
 ## Skills
 
@@ -103,7 +100,4 @@ C, C++, C#, Python, Java, SQL, Shell Scripting, Powershell
 - __English__ : bilingual
 
 
-### Multi-Spé Project
-`Feb 2021 - now`
-Restructuring of the information system during the merger and acquisition of a company
 
