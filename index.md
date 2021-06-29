@@ -26,19 +26,19 @@ Cooling, power series, optics, alchemy, planetary motions, apples.
 
 ## Education
 
-`Sept 2019 - now`
+`2019 - now`
 __EPITA, Computer Science engineering school, Paris__
 
 - Majoring in Systems, Networks and Security
 
 
-`Mar 2019 - June 2019`
+`2019 - 2019`
 __University of Seoul, Exchange program, Seoul__
 
 - Learning new computer science concepts such as rational language theory and operating systems theory
 
 
-`Sept 2017 - June 2019`
+`2017 - 2019`
 __EPITA, Preparatory Cycle, Paris__
 
 - English Section
@@ -46,14 +46,14 @@ __EPITA, Preparatory Cycle, Paris__
 
 ## Work experience
 
-`Sept 2020 - Jan 2021`
+`2020 - 2021`
 __Alsid, Cybersecurity engineer (internship), Paris__
 
 - Advanced Active Directory attack methodology study
 - Implementation of a cyber defense strategy against these attacks
 
 
-`Jan 2021 - June 2021`
+`2021 - 2021`
 __EPITA - Teaching assistant C++/Java__
 
 - Preparation of C++/Java programming courses and exercises for first year students
@@ -70,7 +70,7 @@ C++ reverse-proxy Webserver
 
 ### Forensic challenge
 
-`Feb 2021 - now`
+`2021 - now`
 Creation of a forensic exercise for the [Forum International de la Cybersécurité](https://www.forum-fic.com/accueil.htm)
 
 
