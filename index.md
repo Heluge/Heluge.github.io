@@ -2,22 +2,21 @@
 layout: cv
 title: Julie Hazan
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Julie Hazan
+System, Network and Security engineer student at EPITA
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="linkedin">https://www.linkedin.com/in/julie-hazan-471000185/</a>
 </div>
 
 
 ## Currently
 
-Standing on the shoulders of giants
+Looking for a 6 months internship in systems, networks or security starting from February 2022
 
 ### Specialized in
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+Systems, networks and security in the [SRS major](https://srs.epita.fr/)
 
 
 ### Research interests
@@ -27,65 +26,80 @@ Cooling, power series, optics, alchemy, planetary motions, apples.
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`Sept 2019 - now`
+__EPITA, Computer Science engineering school, Paris__
 
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
+- Majoring in Systems, Networks and Security
 
 
+`Mar 2019 - June 2019`
+__University of Seoul, Exchange program, Seoul__
 
-## Awards
-
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
+- Learning new computer science concepts such as rational language theory and operating systems theory
 
 
+`Sept 2017 - June 2019`
+__EPITA, Preparatory Cycle, Paris__
 
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+- English Section
 
 
-## Occupation
+## Work experience
 
-`1600`
-__Royal Mint__, London
+`Sept 2020 - Jan 2021`
+__Alsid, Cybersecurity engineer (internship), Paris__
 
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+- Advanced Active Directory attack methodology study
+- Implementation of a cyber defense strategy against these attacks
 
 
+`Jan 2021 - June 2021`
+__EPITA - Teaching assistant C++/Java__
 
-<!-- ### Footer
+- Preparation of C++/Java programming courses and exercises for first year students
+- Teaching C++/Java to first year students
 
-Last updated: May 2013 -->
 
+## Computer science projects
+
+### HTTPS Webserver
+
+`2019`
+C++ reverse-proxy Webserver
+
+
+### Forensic challenge
+
+`Feb 2021 - now`
+Creation of a forensic exercise for the [Forum International de la Cybersécurité](https://www.forum-fic.com/accueil.htm)
+
+
+### Defnet
+`15/03/2022`
+Participation to the [Defnet](https://www.defense.gouv.fr/marine/actu-marine/exercice-defnet-2021) exercise : joint cyberdefense exercise organizaed by the "Commandement de la Cyberdéfense"
+
+
+## Skills
+
+### Programming languages
+
+C
+C++
+C#
+Python
+Java
+SQL
+Shell Scripting
+Powershell
+
+
+### Languages
+
+French : native language
+English : bilingual
+
+
+### Multi-Spé Project
+`Feb 2021 - now`
+Restructuring of the information system during the merger and acquisition of a company
 
