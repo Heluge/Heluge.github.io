@@ -30,12 +30,18 @@ Cooling, power series, optics, alchemy, planetary motions, apples.
 __EPITA, Computer Science engineering school, Paris__
 
 - Majoring in Systems, Networks and Security
+- Courses :
+-- Active Directory / Windows administration
+-- Linux Administration
+-- Network concepts
+-- Exploitation (cracking, buffer and heap overflows, shellcode, string format bug, metasploit, rootkits and backdoors)
+-- Network security (TCP/IP and related protocols' attacks) and web site flaws
 
 
 `2019 - 2019`
 __University of Seoul, Exchange program, Seoul__
 
-- Learning new computer science concepts such as rational language theory and operating systems theory
+- Courses : rational language theory and operating systems theory
 
 
 `2017 - 2019`
@@ -83,15 +89,7 @@ Participation to the [Defnet](https://www.defense.gouv.fr/marine/actu-marine/exe
 
 ### Programming languages
 
-C
-C++
-C#
-Python
-Java
-SQL
-Shell Scripting
-Powershell
-
+C, C++, C#, Python, Java, SQL, Shell Scripting, Powershell
 
 ### Languages
 
