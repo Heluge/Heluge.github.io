@@ -31,18 +31,18 @@ __EPITA, Computer Science engineering school, Paris__
 
 - Majoring in Systems, Networks and Security
 
-`Courses`
+- __Courses__
 - Active Directory / Windows administration
 - Linux Administration
 - Network concepts
-- Exploitation (cracking, buffer and heap overflows, shellcode, string format bug, metasploit, rootkits and backdoors)
+- Exploitation (cracking, buffer / heap overflows, shellcode, string format, metasploit, rootkits and backdoors)
 - Network security (TCP/IP and related protocols' attacks) and web site flaws
 
 
 `2019 - 2019`
 __University of Seoul, Exchange program, Seoul__
 
-- Courses : rational language theory and operating systems theory
+- __Courses__ : rational language theory and operating systems theory
 
 
 `2017 - 2019`
@@ -72,18 +72,23 @@ __EPITA - Teaching assistant C++/Java__
 ### HTTPS Webserver
 
 `2019`
-C++ reverse-proxy Webserver
+C++ reverse-proxy __HTTPS Webserver__
 
+
+### 42sh
+
+`2019`
+__Shell__ following the Bash Posix standard coded in C
 
 ### Forensic challenge
 
 `2021 - now`
-Creation of a forensic exercise for the [Forum International de la Cybersécurité](https://www.forum-fic.com/accueil.htm)
+Creation of a __forensic exercise__ for the [Forum International de la Cybersécurité](https://www.forum-fic.com/accueil.htm)
 
 
 ### Defnet
 `15/03/2022`
-Participation to the [Defnet](https://www.defense.gouv.fr/marine/actu-marine/exercice-defnet-2021) exercise : joint cyberdefense exercise organizaed by the "Commandement de la Cyberdéfense"
+Participation to the [Defnet](https://www.defense.gouv.fr/marine/actu-marine/exercice-defnet-2021) exercise : joint __cyberdefense exercise__ organizaed by the "Commandement de la Cyberdéfense"
 
 
 ## Skills
@@ -94,8 +99,8 @@ C, C++, C#, Python, Java, SQL, Shell Scripting, Powershell
 
 ### Languages
 
-French : native language
-English : bilingual
+- __French__ : native language
+- __English__ : bilingual
 
 
 ### Multi-Spé Project
