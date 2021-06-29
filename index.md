@@ -4,7 +4,6 @@ title: Julie Hazan
 ---
 # Julie Hazan
 System, Network and Security engineer student at EPITA
-[linkedin](https://www.linkedin.com/in/julie-hazan-471000185)
 
 
 ## Currently
