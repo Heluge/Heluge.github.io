@@ -1,71 +1,61 @@
-# Gesko
+# Klisé
 
-Simple and minimal Jekyll blog. 
-Forked from [Asko](https://github.com/manuelmazzuola/asko).
-Inspired from [Klisé](https://github.com/piharpi/jekyll-klise)
+Klisé is minimalist Jekyll theme for running a personal site and blog running on Jekyll.<br>
+For demo <a href="https://klise.now.sh" target="_blank" rel="noopener">klise.now.sh</a>
 
-Both had some issues with Github Pages, so I decided to make it work by losing as few features as possible.
-Now easly deployable on Github Pages, with:
+## Features
 
-### Features
+- [x] Light & Dark Mode support :waxing_crescent_moon:
+- [x] Customizable (using `.scss`)
+- [x] Responsive (desktop, tab and mobile)
+- [x] Mobile First Design
+- [x] SEO Optimized
+- [x] Images of post Organized ([`jekyll-postfiles`](https://github.com/nhoizey/jekyll-postfiles))
+- [x] Generate Sitemap ([`jekyll-sitemap`](https://github.com/jekyll/jekyll-sitemap))
+- [x] RSS Feed ([`jekyll-feed`](https://github.com/jekyll/jekyll-feed))
+- [x] Syntax Highlighter ([`rouge`](https://github.com/rouge-ruby/rouge))
+- [x] Next & Previous Post
+- [x] Comment layout, enable in frontmatter if you wish
+- [x] Google analytics
+- [x] HTML Minify ([`jekyll-compress-html`](https://github.com/penibelst/jekyll-compress-html))
+- [x] W3C **Validated**
+- [x] Lighthouse and PageSpeed **Passed**
 
-- [x] Responsive Design
-- [x] Dark/Ligh theme 🌗
-- [x] Inline CSS
-- [x] Anchor headings
-- [x] Tags & Tag pages 
-- [x] 404 page 
-- [x] Robots.txt 🤖
-- [x] Atom & Json feeds 📡
-- [x] Sass 
-- [x] About page, with Timeline! 🗣️
-- [x] PageSpeed and w3Validator tests PASSED ✔️
-- [x] Search bar 🔎
-- [x] Next & Previous Post ⏮️ ⏭️
+![Lighthouse Result](./lighthouse.png)
 
 ## Backlogs
 
-- [ ] Improve SEO score on [Lighthouse](lighthouse_test.png) 
-
-
-
-## Screenshot
-
-![light-theme](https://github.com/P0WEX/Gesko/blob/master/light-theme.jpg)
-![dark-theme](https://github.com/P0WEX/Gesko/blob/master/dark-theme.jpg)
+- [ ] Intergrated with PhotoSwipe.
+- [ ] Add schema.org meta information.
+- [ ] Transform class selector to BEM metodology.
 
 ## Installation
 
 Run local server:
 
 ```bash
-$ git clone https://github.com/P0WEX/Gesko.git
-$ cd Gesko
+$ git clone https://github.com/piharpi/jekyll-klise.git
+$ cd jekyll-klise
 $ bundle install
-$ bundle exec jekyll build
 $ bundle exec jekyll serve
 ```
 
 Navigate to `localhost:4000`. You're Welcome, Fork and be Stargazer.
-If you want to upload it to Github Pages, remember to update the `_congif.yml` and if you are going to upload in a repo called yournickname.github.io, remember to update the `{{ site.baseurl }}` to `{{ site.url }}` .
-Note that there is also a gtag in the [`_layouts/default.html`](https://github.com/P0WEX/Gesko/blob/6776e4afc384dc3d50ce2001715929c8e70a914c/_layouts/default.html#L9), you should remove it.
 
-To create new tag, create a folder in `tag/` with the name of the new one. In this folder add an `index.html` file and just add this header:
-```
----
-layout: tag
-tag: yourNewTag
----
-```
-Then build again and you're ready!!
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/piharpi/jekyll-klise) [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/piharpi/jekyll-klise)
+
+## Limitation
+
+- Since [`jekyll-postfiles`](https://github.com/nhoizey/jekyll-postfiles#compatibility) plugin isn't supported by github pages, this cause will make your site problems, path broken or post images won't show up, you can host alternatively using likes [netlify.com](https://netlify.com), [vercel.com](https://vercel.com) or [surge.sh](https://surge.sh) services, which support 3rd party.
 
 ## Contributing
 
-Yeaaa feel free to open a pull request.
-
-
 If you see any typos or formatting errors in a post, or want to helping reduce backlogs or any other issue that needs to be addressed, please do not hesitate to open a pull request and fix it!, please read [contributing](./CONTRIBUTING.md) before PR.
 
+Yeaaa feel free to open a pull request.
+## Support
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W7MJ4X) [![saweria.co](./assets/img/saweria-button.png)](https://saweria.co/piharpi)
 ## License
 
-This project is open source and available under the [MIT License](LICENSE.md).
+This project is open source and available under the [MIT License](LICENSE).
