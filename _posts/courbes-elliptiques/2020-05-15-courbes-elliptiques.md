@@ -3,25 +3,23 @@ title: Les courbes elliptiques en cryptographie
 date: 2020-05-15 00:00:00 +01:00
 ---
 
-# Les courbes elliptiques en cryptographie
-
-Lors d'une communication sur Internet, les données nécessitent d'être protégées afin d'empêcher qu'elles soient lisibles par tout le monde. Le protocole HTTPS (Hyper Text Transfer Protocol Secure) se charge de sécuriser les connexions sur Internet, il s'agit d'une version sécurisée de l'HTTP.
+Lors d'une communication sur Internet, les données nécessitent d'être protégées afin d'empêcher qu'elles soient lues par tout le monde. Le protocole HTTPS (Hyper Text Transfer Protocol Secure) se charge de sécuriser les connexions sur Internet, il s'agit d'une version sécurisée de l'HTTP.
 
 Pour être protégées, les données ont besoin d'être chiffrées par l'émetteur et déchiffrées par le destinataire. Pour cela, l'HTTPS utilise le protocole SSL (Secure Socket Layer) ou plus récemment le TLS (Transport Layer Security) qui s'occupe du chiffrement et du déchiffrement sur la couche 5 du modèle OSI.
 
 Nous rappellerons tout d'abord les méthodes utilisées par le TLS/SSL pour chiffrer les données puis nous verrons en quoi les courbes elliptiques garantissent un mode de chiffrement solide, rapide et efficace.
 
-#### Le chiffrement selon TLS/SSL
+# Le chiffrement selon TLS/SSL
 
-TLS/SSL combine deux types de chiffrement: le chiffrement symétrique et le chiffrement asymétrique.  
+TLS/SSL combine deux types de chiffrement: le chiffrement symétrique et le chiffrement asymétrique.
 
-#### Chiffrement symétrique
+# Chiffrement symétrique
 
 Il consiste à utiliser la même clé pour le chiffrement et le déchiffrement. Parmi les différentes méthodes de chiffrement symétrique nous retrouvons le code César, le code Vigenère et l’AES (Advanced Encryption Standard). Ce dernier est le code standard pour chiffrer les données sur Internet.
 
 Même s'il garantit un niveau de sécurité élevé, le chiffrement symétrique ne suffit pas en lui-même. En effet, une telle méthode nécessite le passage d'une clé entre l'émetteur du message et le récepteur. Cependant, pour transmettre cette clé de manière sécurisée il faudrait la chiffrer, mais nous aurions alors besoin de transmettre une autre clé et ainsi de suite...
 
-#### Chiffrement asymétrique
+# Chiffrement asymétrique
 
 Ce problème est résolu par un deuxième type de chiffrement: le chiffrement asymétrique. Il consiste à utiliser une clé pour le chiffrement du message et une autre clé pour son déchiffrement. La clé de chiffrement se nomme la clé publique (elle n'a pas besoin d'être gardée secrète, tout le monde doit être capable d'envoyer un message) et la clé de déchiffrement constitue la clé privée (seul le destinataire la connaît et est capable de lire le message). Les deux clés sont liées par une relation mathématique dite asymétrique. Le RSA, du nom de ses créateurs Rivest Shamir Adleman, est un exemple de chiffrement asymétrique qui est utilisé pour le protocole TLS/SSL.
 
@@ -29,24 +27,17 @@ Ce type de chiffrement étant plus coûteux, puisqu'il demande de manipuler des 
 
 Ce principe est appelé l'échange de clés Diffie-Hellman.
 
-### Limites
+# Limites
 Pour être efficace, le RSA a besoin de grands nombres premiers. Les calculs sur ces nombres sont très coûteux et prennent beaucoup d'espace en mémoire. Vient alors la solution des courbes elliptiques.
 
 
-
-
-
-
-
-
-
-### Les courbes elliptiques
+# Les courbes elliptiques
 
 L'étude des courbes elliptiques n'est pas récente. Elles ont été utilisées dans des domaines variés. Elle n'ont cependant été appliquées que récemment à la cryptographie (introduites en 1985).
 
 Elles possèdent des caractéristiques intéressantes qui peuvent être utiles à la cryptographie asymétrique. Elles sont utilisées notamment pour la signature électronique et l'échange de clé lors du "handshake", c'est-à-dire lors de l'établissement d'une connexion entre deux correspondants.
 
-#### Qu'est-ce qu'une courbe elliptique ?
+## Qu'est-ce qu'une courbe elliptique ?
 
 Une courbe elliptique définie sur $\mathbb{R}$ est tout simplement l'ensemble des points qui vérifient l'équation:
 $$
@@ -101,13 +92,13 @@ La multiplication est simplement l'addition répétée plusieurs fois:
 
 ![IMG_0999](IMG_1002.PNG)
 
-#### Application en cryptologie
+## Application en cryptologie
 
 Les courbes que nous avons vues précédement sont des courbes continues définies sur $\mathbb{R}$ mais en cryptologie nous avons besoin de manipuler des entiers, et de préférence sur un espace fini. 
 
 Plutôt que de travailler sur des réels, nous allons manipuler des entiers modulo un nombre premier. La courbe devient alors:
 
-![image-20200503102847184](/home/julie/.config/Typora/typora-user-images/image-20200503102847184.png)
+[comment]: <> ![image-20200503102847184](/home/julie/.config/Typora/typora-user-images/image-20200503102847184.png)
 
 Notre courbe est maintenant difficilement reconnaissable mais elle possède bien les mêmes propriétés: symétrie, addition...
 
@@ -119,7 +110,7 @@ Nous notons que nous n'avons plus un corpss défini sur les réels mais un corps
 
 On dit que le groupe $\mathbb{Z}/p\mathbb{Z}$ est d'ordre $p-1$. Ce nombre est important puisqu'il détermine le niveau de sécurité de l'encodage, tout comme la grandeur des nombres premiers pour le RSA. Plus ce nombre est grand, plus le code est fiable.
 
-###### Quel est alors le rapport avec la cryptologie asymétrique ?
+### Quel est alors le rapport avec la cryptologie asymétrique ?
 
 L'asymétrie des courbes elliptiques repose sur ce principe:
 
@@ -131,7 +122,7 @@ Soit $P$ un point de la courbe et $Q = kP$ un multiple de $P$.
 
 Dans ce système, $k$ représente la clé privée et $P$ et $Q$ la clé publique.
 
-##### Algorithme d'échange de clé
+### Algorithme d'échange de clé
 
 Après avoir réussi à reproduire les mêmes propriétés asymétriques que le chiffrement RSA, nous pouvons adapter le principe d'échange de clé de Diffie-Hellman aux courbes elliptiques, c'est ce qu'on appelle l'ECDH (Elliptic Curve Diffie-Hellman).
 
@@ -146,7 +137,7 @@ Les deux correspondants se retrouvent ainsi avec la même clé qui peut être ut
 
 
 
-#### Pour conclure
+# Pour conclure
 
 Le protocole TLS/SSL combine le chiffrement symétrique et le chiffrement asymétrique  afin de garantir la confidentialité des données sur Internet. Le chiffrement symétrique est une solution fiable bien qu'elle ait besoin d'un autre type d'encodage pour assurer une sécurité complète.
 
@@ -156,12 +147,12 @@ RSA a introduit la notion de chiffrement asymétrique et a ainsi permis de sécu
 
 ### Sources
 
-http://math.univ-bpclermont.fr/~rebolledo/page-fichiers/projetMichael.pdf
-https://www.youtube.com/watch?v=dCvB-mhkT0w
-http://www.lix.polytechnique.fr/~goncalves/Downloads/Cours2_Courbes_elliptiques.pdf
-https://www.youtube.com/watch?v=gAtBM06xwaw
-https://fr.wikipedia.org/wiki/Chiffrement_RSA
-https://cryptobourrin.wordpress.com/2018/10/09/comprendre-les-courbes-elliptiques/
-https://www.websecurity.digicert.com/fr/fr/security-topics/what-is-ssl-tls-https
-https://tls.ulfheim.net/
+- [math.univ-bpclermont.fr - Courbes elliptiques et cryptographie](http://math.univ-bpclermont.fr/~rebolledo/page-fichiers/projetMichael.pdf)
+- [youtube.com - Elliptic Curve Cryptography Overview](https://www.youtube.com/watch?v=dCvB-mhkT0w)
+- [lix.polytechnique.fr - Cryptographie Avancée](http://www.lix.polytechnique.fr/~goncalves/Downloads/Cours2_Courbes_elliptiques.pdf)
+- [youtube.com - Elliptic Curve Cryptography Tutorial - Understanding ECC through the Diffie-Hellman Key Exchange](https://www.youtube.com/watch?v=gAtBM06xwaw)
+- [wikipedia.org - Chiffrement RSA](https://fr.wikipedia.org/wiki/Chiffrement_RSA)
+- [cryptobourrin.wordpress.com - Comprendre les courbes elliptiques](https://cryptobourrin.wordpress.com/2018/10/09/comprendre-les-courbes-elliptiques/)
+- [websecurity.digicert.com - Que sont SSL, TLS et HTTPS ?](https://www.websecurity.digicert.com/fr/fr/security-topics/what-is-ssl-tls-https)
+- [tls.ulfheim.net - The Illustrated TLS Connection](https://tls.ulfheim.net/)
 
