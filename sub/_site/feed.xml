@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US"><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://klise.now.sh/feed.xml" rel="self" type="application/atom+xml" /><link href="https://klise.now.sh/" rel="alternate" type="text/html" hreflang="en-US" /><updated>2021-07-07T20:31:40+02:00</updated><id>https://klise.now.sh/feed.xml</id><title type="html">Heluge’s blog</title><subtitle>He&apos;s writing in Bahasa about web technology and experience as a journal  for documentation things that he learned, meet him &lt;a href=&quot;https://github.com/piharpi&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;@github&lt;/a&gt;.</subtitle><author><name>Julie Hazan</name><email>hznjulie@gmail.com</email></author><entry><title type="html">Welcome to Jekyll!</title><link href="https://klise.now.sh/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-08-29T04:29:20+02:00</published><updated>2020-08-29T04:29:20+02:00</updated><id>https://klise.now.sh/welcome-to-jekyll</id><content type="html" xml:base="https://klise.now.sh/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;Tom&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &apos;Hi, Tom&apos; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Julie Hazan</name><email>hznjulie@gmail.com</email></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Nouveautés introduites par HTTP/3</title><link href="https://klise.now.sh/http3/" rel="alternate" type="text/html" title="Nouveautés introduites par HTTP/3" /><published>2020-05-25T01:00:00+02:00</published><updated>2020-05-25T01:00:00+02:00</updated><id>https://klise.now.sh/http3</id><content type="html" xml:base="https://klise.now.sh/http3/">&lt;h1 id=&quot;http3&quot;&gt;HTTP/3&lt;/h1&gt;
+
+&lt;p&gt;HTTP/3 est la prochaine version majeure du Hypertexte Transfer Protocol qui succédera au HTTP/2. Cette nouvelle version repose sur les mêmes principes que HTTP/1 et HTTP/2 mais utilise un protocole de transport différent. Le but de ce changement est de rendre les échanges internet plus rapides et de résoudre les problèmes de pertes de paquets de manière plus performante.&lt;/p&gt;
+
+&lt;h2 id=&quot;background--limites-de-lhttp2&quot;&gt;Background / limites de l’HTTP/2&lt;/h2&gt;
+
+&lt;p&gt;Pour comprendre ce qui a motivé le développement d’une nouvelle version HTTP, il faut connaître l’évolution de ce protocole. L’HTTP comme nous le connaissons aujourd’hui a été créé en 1996 avec le HTTP/1. Une nouvelle connexion était créée à chaque nouvel échange entre serveur et client. La création d’une connexion étant un processus coûteux, le temps de latence était donc très long pour chaque page. En plus de cela, une fois la connexion établie, il y a un temps d’attente nommé le “slow start” qui permet à l’algorithme de congestion de déterminer la quantité de données qui peut être simultanément sur le réseau sans créer de congestion. Cela évite de bloquer le réseau en lui envoyant des paquets qu’il ne peut pas gérer mais cela retarde également l’envoi d’un paquet.&lt;/p&gt;
+
+&lt;p&gt;La version HTTP/1.1 cherchait à corriger ce problème en mettant en place la concept de “keep-alive”. Lorsqu’une connexion est en “keep-alive” cela signifie que la connexion doit être réutilisée pour les futurs échanges, cela évite donc d’avoir à refaire le processus relativement long de création d’une connexion.
+Les sites se sont mis à évoluer et à contenir plus d’informations, qui ne pouvaient pas tenir dans une seule requête. Une des solutions à ce problème était de paralléliser les requêtes venant d’une même origine mais sur des connexions différentes. Par exemple, lors d’une navigation internet, les différents fichiers d’un site sont envoyés simultanément sur 3 connexions différentes. Cela fait gagner du temps mais le concept de keep-alive perd son utilité puisqu’il faut créer plusieurs connexions pour un même échange.&lt;/p&gt;
+
+&lt;p&gt;Plus tard est apparu HTTP/2 qui a introduit le principe de multiplexage. C’est-à-dire que plusieurs requêtes peuvent être faites sur la même connexion TCP. Par exemple, lorsqu’on essaye d’accéder à une page web, on a besoin d’accéder à plusieurs fichiers: des images, un fichier CSS, javascript etc… Il faut donc effectuer plusieurs requêtes. Le multiplexage permet d’effectuer ces requêtes dans la même connexion. Ce qui permet au navigateur d’afficher toutes les données du site simultanément.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/Y8k8S44hLu7qSQ6JOA9C715sBOT5trC9-sJZRSalDe33brEJtfNiCSx8AvLmuTQ3iGQb0MJscITJq8Gn3BwZ62rXri2IdeDqxeR8ZMCFBEBDKHlgXBsOK0zC7zqleXk97su_-hIr&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bien qu’elle permette de réduire le temps de latence, le multiplexage est limité par le TCP. En effet, à son niveau, TCP n’est pas capable de séparer les différents flux de données, c’est un protocole de transport et non d’application. Donc lorsqu’un des flux multiplexés subit une perte de paquet, c’est toute la connexion qui est bloquée jusqu’à ce que TCP fasse son travail de récupération de paquet. Cela signifie que tous les paquets, même s’ils sont déjà transmis et en attente, sont bloqués dans le tampon du nœud de destination jusqu’à ce que le paquet perdu soit retransmis.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-améliorations-de-http3&quot;&gt;Les améliorations de HTTP/3&lt;/h2&gt;
+
+&lt;p&gt;La grande amélioration du HTTP/3 est l’utilisation d’un nouveau protocole de transport appelé QUIC pour Quick UDP Internet Connection, contrairement au HTTP/2 qui utilise TCP. Comme son nom l’indique, QUIC repose sur un protocole de transport déjà existant: l’UDP.&lt;/p&gt;
+
+&lt;p&gt;L’avantage du UDP par rapport au TCP est sa rapidité. Le TCP a besoin de faire plusieurs allers-retours pour diffuser des données. Il est orienté « connexion ». C’est-à-dire, lorsqu’une machine A envoie des données à une machine B, la machine A doit d’abord établir une connexion avec le destinataire puis lui envoyer les données et finalement la machine B répond par un accusé réception. Ce système a un avantage parce qu’il renforce la sécurité: il permet de savoir si le destinataire a bien reçu tous les paquets dans le bon ordre et sans être corrompu. Par contre, &lt;strong&gt;il est assez lent&lt;/strong&gt; puisqu’il doit faire plusieurs allers-retours.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;L’UDP&lt;/strong&gt;, au contraire, est un protocole orienté « non connexion ». Lorsqu’une machine A envoie des paquets à une machine B, le flux est unidirectionnel. La machine B n’est pas prévenue de l’arrivée des données et elle les reçoit sans avoir à envoyer d’accusé de réception.
+Le but du protocole QUIC (&lt;em&gt;Quick UDP Internet Connections&lt;/em&gt;) c’est de conserver les avantages de l’UDP qui est plus léger que le TCP, tout en comblant l’absence de fiabilité de l’UDP.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/6R4bidm9vGAATqoC22qhpc1UOLtExXyJlG0QbWSNJa0NJqLYDat9N7EWLYQYP1xQIysYuBMdwcCP1EZvlg1GibzEyyk_0lafDsvFJ99-BIoDrjTkbbsJnVk8i2xWoA3DETyE13ld&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;comment-quic-résout-ces-problèmes&quot;&gt;Comment QUIC résout ces problèmes&lt;/h2&gt;
+
+&lt;h3 id=&quot;connexion&quot;&gt;Connexion&lt;/h3&gt;
+
+&lt;p&gt;Comme expliqué précédemment, TCP repose sur un système de connexion. Pour démarrer une connexion, il doit y avoir un “handshake” entre le client et le serveur. À chaque fois qu’un utilisateur accède à une page web avec HTTPS, il y a un handshake. Cet échange doit respecter la norme du protocole TLS qui sert notamment à définir le mode de chiffrement à utiliser pour la communication. QUIC a mis en place un système de connexion qui est assez similaire à celui du TCP tout en réduisant le temps du handshake.
+Avec QUIC, la demande de connexion et de chiffrement auprès du serveurs se fait en une seule fois (ce qui demande plusieurs allers-retours au TCP). Plutôt que d’avoir plusieurs échanges au début de la connexion pour définir le mode de chiffrement de la communication, QUIC envoie les certificats et les clés nécessaires à la sécurité dans le premier paquet. Ce qui enlève donc le besoin d’avoir une négociation sur le protocole de sécurité.&lt;/p&gt;
+
+&lt;p&gt;Sur ce schéma on peut voir les différentes étapes du handshake et d’une requête d’un côté pour TCP + TLS/1.3 et de l’autre la nouvelle version avec QUIC. On peut voir que le handshake en TCP se compose de 2 aller-retour alors que du côté de QUIC, il n’en suffit que d’un.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lh6.googleusercontent.com/nNrc_6DgyiOe-4Du4CYvALDo87U3gvWvFTKsH7KDqbH1qhjKSKI4qIyYsrgyNk8WJ4nfDC17LmoSlzF9gJ6_KenAjyM-FTVkQfh0ypu-zFFg_6blXlAlpaJJVa3-kpvCXJdIgyeX&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;perte-de-paquet&quot;&gt;Perte de paquet&lt;/h3&gt;
+
+&lt;p&gt;Le deuxième problème que QUIC a réussi à résoudre est la gestion de perte de paquet. UDP n’a pas de fonction qui permette de vérifier si un paquet a bien été reçu, QUIC s’est donc inspiré du système de TCP de gestion de paquet.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;QUIC n’a pas le problème d’HTTP/2 pour le multiplexage.&lt;/strong&gt; QUIC encapsule les paquets au-dessus de la couche UDP, ce qui permet à UDP de faire une séparation entre chaque flux. Chaque flux est donc contrôlé séparément et chaque paquet perdu est retransmis au niveau de QUIC et non de UDP. Ça veut dire que si une erreur apparaît dans un flux, les autres flux peuvent continuer à être envoyés indépendamment.&lt;/p&gt;
+
+&lt;h3 id=&quot;chiffrement-individuel-des-paquets&quot;&gt;Chiffrement individuel des paquets&lt;/h3&gt;
+
+&lt;p&gt;QUIC inclut également d’autres changements qui améliorent la latence. Par exemple, les paquets sont chiffrés individuellement. Il n’y a donc pas besoin d’attendre le reste des paquets pour chiffrer la communication. Cette amélioration n’est pas possible en TCP puisque le protocole de chiffrement chiffre le flux dans son ensemble et n’est pas au courant des délimitations des paquets des couches supérieures.&lt;/p&gt;
+
+&lt;h3 id=&quot;changement-de-réseau&quot;&gt;Changement de réseau&lt;/h3&gt;
+
+&lt;p&gt;Un autre objectif qu’avait QUIC était d’améliorer les performances lors d’un changement de réseau, c’est à dire lorsqu’un utilisateur mobile, par exemple, passe d’une connexion wifi à un réseau mobile. Lorsque ça arrive en TCP, une longue procédure commence où chaque connexion existante expire une par une et est ensuite rétablie par une demande. Pour corriger ce problème, QUIC inclut un identifiant de connexion pour chaque connexion au serveur, indépendamment de la source. Ça permet à la connexion d’être rétablie par le simple envoie d’un paquet avec toujours le même ID de connexion qui sera toujours valide même si l’utilisateur change d’adresse IP.&lt;/p&gt;
+
+&lt;h2 id=&quot;pourquoi-changer-le-protocole-http-&quot;&gt;Pourquoi changer le protocole HTTP ?&lt;/h2&gt;
+
+&lt;p&gt;Nous avons vu que la grande nouveauté d’HTTP/3 concernait la couche transport. Mais s’il s’agit seulement d’un changement de transport, ne peut-on pas continuer à utiliser l’HTTP/2 avec QUIC ? Pourquoi aurait-on besoin d’un nouveau protocole d’application ?&lt;/p&gt;
+
+&lt;p&gt;Il y a tout de même quelques changements à considérer du côté de l’application. Il est vrai que certaines caractéristiques de l’HTTP/2 peuvent être associées à QUIC très facilement mais ce n’est pas le cas de toutes. Par exemple, l’algorithme de compression d’HTTP/2 nommé HPACK dépend fortement de l’ordre dans lequel les différentes requêtes et réponses HTTP sont envoyées. QUIC garantie l’ordre des bytes dans un même stream mais ne garantie pas d’ordre entre les différents streams. Ce comportement nécessite la création d’un nouvel algorithme de compression qui est appelé QPACK. Ce nouvel algorithme résout le problème mais nécessite des changements sur la couche application.&lt;/p&gt;
+
+&lt;p&gt;En plus de cela, certaines fonctionnalités d’HTTP/2 (comme le contrôle pour chaque flux) sera géré par QUIC et n’aura donc plus besoin d’être géré par le protocole HTTP.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-limites-de-lhttp3&quot;&gt;Les limites de l’HTTP/3&lt;/h2&gt;
+
+&lt;p&gt;Le problème le plus important auquel le protocole QUIC est confronté est la sécurité. Bien que l’authentification et le chiffrement fournissent une méthode fiable, cela pose tout de même de nouveaux problèmes. Les entêtes des paquets QUIC contiennent des informations de texte moins claires que ceux de TCP. La régulation du trafic, ou la gestion du réseau deviennent plus dur à gérer avec des connexions QUIC. Les opérateurs de réseau et les fabricants de pare-feu ont donc du mal à garantir la qualité de leur produit.&lt;/p&gt;
+
+&lt;p&gt;Un autre problème concerne le contrôle de l’encombrement sur les réseaux. Ce contrôle se fait de manière automatique pour QUIC mais peut entraîner dans certains cas des taux de transmissions plus faibles qu’avec TCP.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;En conclusion, HTTP/3 permettra de transmettre des données plus rapidement grâce à un nouveau protocole sur la couche transport. Google a mis en pratique le protocole QUIC depuis 2015 et a estimé un gain de temps de 8 à 15% des temps de chargement des pages web. L’HTTP/3 devrait bientôt rentrer dans la norme comme l’a récemment annoncé L’IETF (&lt;strong&gt;Internet Engineering Task Force&lt;/strong&gt;) et il est déjà possible de l’activer la plupart des navigateurs.&lt;/p&gt;
+
+&lt;h3 id=&quot;sources&quot;&gt;Sources&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://www.phonandroid.com/http-3-tout-savoir-sur-le-nouveau-protocole-qui-va-accelerer-le-web.html&lt;/li&gt;
+  &lt;li&gt;https://kinsta.com/fr/blog/http3/#&lt;/li&gt;
+  &lt;li&gt;https://leblogducodeur.fr/la-difference-entre-udp-et-tcp/&lt;/li&gt;
+  &lt;li&gt;https://www.ionos.fr/digitalguide/hebergement/aspects-techniques/quic/&lt;/li&gt;
+  &lt;li&gt;https://blog.cloudflare.com/http3-the-past-present-and-future/&lt;/li&gt;
+  &lt;li&gt;https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/&lt;/li&gt;
+  &lt;li&gt;https://www.fastly.com/blog/quic-handshake-tls-compression-certificates-extension-study&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Julie Hazan</name><email>hznjulie@gmail.com</email></author><summary type="html">HTTP/3</summary></entry><entry><title type="html">Les courbes elliptiques en cryptographie</title><link href="https://klise.now.sh/courbes-elliptiques/" rel="alternate" type="text/html" title="Les courbes elliptiques en cryptographie" /><published>2020-05-15T01:00:00+02:00</published><updated>2020-05-15T01:00:00+02:00</updated><id>https://klise.now.sh/courbes-elliptiques</id><content type="html" xml:base="https://klise.now.sh/courbes-elliptiques/">&lt;p&gt;Lors d’une communication sur Internet, les données nécessitent d’être protégées afin d’empêcher qu’elles soient lues par tout le monde. Le protocole HTTPS (Hyper Text Transfer Protocol Secure) se charge de sécuriser les connexions sur Internet, il s’agit d’une version sécurisée de l’HTTP.&lt;/p&gt;
+
+&lt;p&gt;Pour être protégées, les données ont besoin d’être chiffrées par l’émetteur et déchiffrées par le destinataire. Pour cela, l’HTTPS utilise le protocole SSL (Secure Socket Layer) ou plus récemment le TLS (Transport Layer Security) qui s’occupe du chiffrement et du déchiffrement sur la couche 5 du modèle OSI.&lt;/p&gt;
+
+&lt;p&gt;Nous rappellerons tout d’abord les méthodes utilisées par le TLS/SSL pour chiffrer les données puis nous verrons en quoi les courbes elliptiques garantissent un mode de chiffrement solide, rapide et efficace.&lt;/p&gt;
+
+&lt;h1 id=&quot;le-chiffrement-selon-tlsssl&quot;&gt;Le chiffrement selon TLS/SSL&lt;/h1&gt;
+
+&lt;p&gt;TLS/SSL combine deux types de chiffrement: le chiffrement symétrique et le chiffrement asymétrique.&lt;/p&gt;
+
+&lt;h1 id=&quot;chiffrement-symétrique&quot;&gt;Chiffrement symétrique&lt;/h1&gt;
+
+&lt;p&gt;Il consiste à utiliser la même clé pour le chiffrement et le déchiffrement. Parmi les différentes méthodes de chiffrement symétrique nous retrouvons le code César, le code Vigenère et l’AES (Advanced Encryption Standard). Ce dernier est le code standard pour chiffrer les données sur Internet.&lt;/p&gt;
+
+&lt;p&gt;Même s’il garantit un niveau de sécurité élevé, le chiffrement symétrique ne suffit pas en lui-même. En effet, une telle méthode nécessite le passage d’une clé entre l’émetteur du message et le récepteur. Cependant, pour transmettre cette clé de manière sécurisée il faudrait la chiffrer, mais nous aurions alors besoin de transmettre une autre clé et ainsi de suite…&lt;/p&gt;
+
+&lt;h1 id=&quot;chiffrement-asymétrique&quot;&gt;Chiffrement asymétrique&lt;/h1&gt;
+
+&lt;p&gt;Ce problème est résolu par un deuxième type de chiffrement: le chiffrement asymétrique. Il consiste à utiliser une clé pour le chiffrement du message et une autre clé pour son déchiffrement. La clé de chiffrement se nomme la clé publique (elle n’a pas besoin d’être gardée secrète, tout le monde doit être capable d’envoyer un message) et la clé de déchiffrement constitue la clé privée (seul le destinataire la connaît et est capable de lire le message). Les deux clés sont liées par une relation mathématique dite asymétrique. Le RSA, du nom de ses créateurs Rivest Shamir Adleman, est un exemple de chiffrement asymétrique qui est utilisé pour le protocole TLS/SSL.&lt;/p&gt;
+
+&lt;p&gt;Ce type de chiffrement étant plus coûteux, puisqu’il demande de manipuler des nombres premiers à plusieurs centaines de chiffres, il est seulement utilisé pour échanger la clé du chiffrement symétrique, au début d’une connexion. Le reste de l’échange se fait grâce à un encodage symétrique.&lt;/p&gt;
+
+&lt;p&gt;Ce principe est appelé l’échange de clés Diffie-Hellman.&lt;/p&gt;
+
+&lt;h1 id=&quot;limites&quot;&gt;Limites&lt;/h1&gt;
+&lt;p&gt;Pour être efficace, le RSA a besoin de grands nombres premiers. Les calculs sur ces nombres sont très coûteux et prennent beaucoup d’espace en mémoire. Vient alors la solution des courbes elliptiques.&lt;/p&gt;
+
+&lt;h1 id=&quot;les-courbes-elliptiques&quot;&gt;Les courbes elliptiques&lt;/h1&gt;
+
+&lt;p&gt;L’étude des courbes elliptiques n’est pas récente. Elles ont été utilisées dans des domaines variés. Elle n’ont cependant été appliquées que récemment à la cryptographie (introduites en 1985).&lt;/p&gt;
+
+&lt;p&gt;Elles possèdent des caractéristiques intéressantes qui peuvent être utiles à la cryptographie asymétrique. Elles sont utilisées notamment pour la signature électronique et l’échange de clé lors du “handshake”, c’est-à-dire lors de l’établissement d’une connexion entre deux correspondants.&lt;/p&gt;
+
+&lt;h2 id=&quot;quest-ce-quune-courbe-elliptique-&quot;&gt;Qu’est-ce qu’une courbe elliptique ?&lt;/h2&gt;
+
+&lt;p&gt;Une courbe elliptique définie sur $\mathbb{R}$ est tout simplement l’ensemble des points qui vérifient l’équation:
+\(y² = x³ + ax + b\)&lt;/p&gt;
+
+&lt;p&gt;avec $a$ et $b$ qui vérifient:
+\(\Delta = 4a³ + 27b² \neq 0\)
+Les courbes elliptiques peuvent avoir des formes variées (selon les valeurs que peuvent prendre a et b):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;exemples_ce.png&quot; alt=&quot;exemples_ce&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quelques caractéristiques intéressantes des courbes elliptiques:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;La courbe est symétrique par rapport à l’axe des abscisses&lt;/li&gt;
+  &lt;li&gt;Chaque droite qui intersecte la courbe a au plus deux autres intersections avec cette courbe&lt;/li&gt;
+  &lt;li&gt;Les points de la courbe définissent un corp mathématiques, nous pouvons donc définir les opérations “+”, “-“ et “/” sur ces points&lt;/li&gt;
+  &lt;li&gt;On nomme O ou point à l’infini l’élément neutre de l’addition, il se trouve en général aux coordonnées (0, 1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nous choisissons deux points $P$ et $Q$ sur la courbe. Pour faire l’addition de ces deux points, il suffit de tracer la droite passant par $P$ et $Q$ puis prendre le troisième point d’intersection $R$  entre la droite et la courbe. Le symétrique de $R$ par rapport à l’axe des abscisses est la somme des deux premiers points:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;IMG_1001.PNG&quot; alt=&quot;IMG_0996&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si $P = Q$, on trace la tangente en P et on suit le même procédé.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;IMG_0997.PNG&quot; alt=&quot;IMG_0997&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finalement, si $P = -Q$, la droite est perpendiculaire à l’axe des ordonnées. Il n’y a donc pas de  troisième point d’intersection, on considère alors que que la somme est le point à l’infini O.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;IMG_0998.PNG&quot; alt=&quot;IMG_0998&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Il nous reste maintenant à définir ces opérations de manière algébrique:&lt;/p&gt;
+
+&lt;p&gt;Notons $(x_P, y_P)$ et $(x_Q, y_Q)$ les coordonnées respectives de $P$ et $Q$.&lt;/p&gt;
+
+&lt;p&gt;Les coordonnées de $S = P + Q$ s’expriment alors:
+\(\begin{align*}
+&amp;amp;x_S = \lambda^2 - x_P - x_Q\\
+&amp;amp;y_S = \lambda (x_P - x_S) - y_P
+\end{align*}\)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Si $P = Q$ et $y_P \neq 0$, $\lambda = \frac{3x_P^2 + a}{2y_P}$&lt;/li&gt;
+  &lt;li&gt;Sinon, $\lambda = \frac{y_Q - y_P}{x_Q - x_P}$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La multiplication est simplement l’addition répétée plusieurs fois:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;IMG_1002.PNG&quot; alt=&quot;IMG_0999&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;application-en-cryptologie&quot;&gt;Application en cryptologie&lt;/h2&gt;
+
+&lt;p&gt;Les courbes que nous avons vues précédement sont des courbes continues définies sur $\mathbb{R}$ mais en cryptologie nous avons besoin de manipuler des entiers, et de préférence sur un espace fini.&lt;/p&gt;
+
+&lt;p&gt;Plutôt que de travailler sur des réels, nous allons manipuler des entiers modulo un nombre premier. La courbe devient alors:&lt;/p&gt;
+
+&lt;p&gt;Notre courbe est maintenant difficilement reconnaissable mais elle possède bien les mêmes propriétés: symétrie, addition…&lt;/p&gt;
+
+&lt;p&gt;L’addition fonctionne toujours de la même façon: on trace une droite passant par deux points puis on trace le symétrique du troisième point rencontré.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;IMG_0995.PNG&quot; alt=&quot;IMG_0995&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nous notons que nous n’avons plus un corpss défini sur les réels mais un corps cyclique sur $\mathbb{Z} / p\mathbb{Z}*$ ou $p$ représente le nombre premier choisi. Cela signifie que si nous partons d’un point et que nous le multiplions par lui-même assez de fois, nous retomberons sur le même point.&lt;/p&gt;
+
+&lt;p&gt;On dit que le groupe $\mathbb{Z}/p\mathbb{Z}$ est d’ordre $p-1$. Ce nombre est important puisqu’il détermine le niveau de sécurité de l’encodage, tout comme la grandeur des nombres premiers pour le RSA. Plus ce nombre est grand, plus le code est fiable.&lt;/p&gt;
+
+&lt;h3 id=&quot;quel-est-alors-le-rapport-avec-la-cryptologie-asymétrique-&quot;&gt;Quel est alors le rapport avec la cryptologie asymétrique ?&lt;/h3&gt;
+
+&lt;p&gt;L’asymétrie des courbes elliptiques repose sur ce principe:&lt;/p&gt;
+
+&lt;p&gt;Soit $P$ un point de la courbe et $Q = kP$ un multiple de $P$.&lt;/p&gt;
+
+&lt;p&gt;À partir de $P$ et $k$, il est facile de calculer Q. À l’inverse, en partant de $P$ et $Q$ et si l’ordre du groupe est assez grand, il est très difficile de retrouver $k$. Cela revient à résoudre le problème du logarithme discret sur courbe elliptique, qui est plus compliqué à résoudre que le problème du logarithme simple du RSA.&lt;/p&gt;
+
+&lt;p&gt;À longueur de clé égale, l’ECC (Elliptic Curve Cryptography) fournit ainsi une fiabilité supérieure au RSA. Une clé ECC encodée sur 384 bits a une sécurité équivalente à une clé RSA de 7680 bits.&lt;/p&gt;
+
+&lt;p&gt;Dans ce système, $k$ représente la clé privée et $P$ et $Q$ la clé publique.&lt;/p&gt;
+
+&lt;h3 id=&quot;algorithme-déchange-de-clé&quot;&gt;Algorithme d’échange de clé&lt;/h3&gt;
+
+&lt;p&gt;Après avoir réussi à reproduire les mêmes propriétés asymétriques que le chiffrement RSA, nous pouvons adapter le principe d’échange de clé de Diffie-Hellman aux courbes elliptiques, c’est ce qu’on appelle l’ECDH (Elliptic Curve Diffie-Hellman).&lt;/p&gt;
+
+&lt;p&gt;L’algorithme est le suivant:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arielle et Brian se mettent d’accord publiquement sur une courbe elliptique et un point $G$ de cette courbe&lt;/li&gt;
+  &lt;li&gt;Arielle choisit au hasard un réel $d_A$ et calcule le produit $G_A = d_AG$ qu’elle envoie à Brian (cet échange n’a pas besoin d’être tenu secret)&lt;/li&gt;
+  &lt;li&gt;De même, Brian choisit un réel $d_B$ et envoie le produit $G_B = d_BG$ à Arielle&lt;/li&gt;
+  &lt;li&gt;Finalement, Arielle calcule $S = d_AG_B = d_Ad_BG$ et Brian calcule $S = d_BG_A = d_Ad_BG$&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les deux correspondants se retrouvent ainsi avec la même clé qui peut être utilisée pour un chiffrement symétrique.&lt;/p&gt;
+
+&lt;h1 id=&quot;pour-conclure&quot;&gt;Pour conclure&lt;/h1&gt;
+
+&lt;p&gt;Le protocole TLS/SSL combine le chiffrement symétrique et le chiffrement asymétrique  afin de garantir la confidentialité des données sur Internet. Le chiffrement symétrique est une solution fiable bien qu’elle ait besoin d’un autre type d’encodage pour assurer une sécurité complète.&lt;/p&gt;
+
+&lt;p&gt;RSA a introduit la notion de chiffrement asymétrique et a ainsi permis de sécuriser l’échange de clé au début d’une connexion. Les courbes elliptiques sont une amélioration de ce principe. Les calculs se faisant sur des points et non sur des entiers, cela permet de complexifier la recherche de la clé privée et ainsi d’augmenter la fiabilité de l’encodage.&lt;/p&gt;
+
+&lt;h3 id=&quot;sources&quot;&gt;Sources&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://math.univ-bpclermont.fr/~rebolledo/page-fichiers/projetMichael.pdf&quot;&gt;math.univ-bpclermont.fr - Courbes elliptiques et cryptographie&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dCvB-mhkT0w&quot;&gt;youtube.com - Elliptic Curve Cryptography Overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.lix.polytechnique.fr/~goncalves/Downloads/Cours2_Courbes_elliptiques.pdf&quot;&gt;lix.polytechnique.fr - Cryptographie Avancée&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gAtBM06xwaw&quot;&gt;youtube.com - Elliptic Curve Cryptography Tutorial - Understanding ECC through the Diffie-Hellman Key Exchange&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fr.wikipedia.org/wiki/Chiffrement_RSA&quot;&gt;wikipedia.org - Chiffrement RSA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cryptobourrin.wordpress.com/2018/10/09/comprendre-les-courbes-elliptiques/&quot;&gt;cryptobourrin.wordpress.com - Comprendre les courbes elliptiques&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.websecurity.digicert.com/fr/fr/security-topics/what-is-ssl-tls-https&quot;&gt;websecurity.digicert.com - Que sont SSL, TLS et HTTPS ?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tls.ulfheim.net/&quot;&gt;tls.ulfheim.net - The Illustrated TLS Connection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Julie Hazan</name><email>hznjulie@gmail.com</email></author><summary type="html">Lors d’une communication sur Internet, les données nécessitent d’être protégées afin d’empêcher qu’elles soient lues par tout le monde. Le protocole HTTPS (Hyper Text Transfer Protocol Secure) se charge de sécuriser les connexions sur Internet, il s’agit d’une version sécurisée de l’HTTP.</summary></entry></feed>
